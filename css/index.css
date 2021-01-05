@@ -1,0 +1,88 @@
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    min-width: 1200px;
+    background-color: rgb(10,11,31);
+}
+
+header {
+    background-color: rgb(17,20,39);
+}
+
+.header {
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.header>span {
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 35px;
+    color: rgb(204,208,209);
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.mainleft {
+    flex: 1;
+    height: 768px;
+}
+
+.mainright {
+    flex: 1;
+    height: 768px;
+}
+
+.maincenter {
+    flex: 2;
+    height: 768px;
+}
+
+.chart1 {
+    box-sizing: border-box;
+    width: 100%; 
+    height: calc(100% / 2);
+    padding: 10px 10px;
+    background-color: rgb(26,27,47);
+}
+
+.chart2 {
+    box-sizing: border-box;
+    width: 100%; 
+    height: calc(100% / 2);
+    padding: 10px 10px;
+    background-color: rgb(26,27,47);
+}
+
+.chart3 {
+    box-sizing: border-box;
+    width: 100%; 
+    height: calc(100% / 2);
+    padding: 10px 10px;
+    background-color: rgb(26,27,47);
+}
+
+.chart4 {
+    box-sizing: border-box;
+    width: 100%; 
+    height: calc(100% / 2);
+    padding: 10px 10px;
+    background-color: rgb(26,27,47);
+}
+
+.centermap {
+    width: 100%;
+    height: 100%;
+}
